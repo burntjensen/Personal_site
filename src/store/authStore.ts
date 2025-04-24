@@ -1,8 +1,8 @@
 import { create } from 'zustand';
 import { AuthState } from '../types';
 
-const ADMIN_USERNAME = 'admin';
-const ADMIN_PASSWORD = 'password';
+const ADMIN_USERNAME = import.meta.env.VITE_AUTH_CLIENT_ID;;
+const ADMIN_PASSWORD = import.meta.env.VITE_AUTH_SECRET;
 
 export const useAuthStore = create<AuthState>((set) => {
   // Check if there's a stored auth state in localStorage

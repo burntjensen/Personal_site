@@ -43,7 +43,7 @@ const HomePage: React.FC = () => {
 
           <div className="text-center md:text-left">
             <h1 className="text-3xl md:text-4xl font-bold text-accent-900 mb-2">
-              Burnt Jensen
+              Brent Jensen
             </h1>
 
             <div className="flex space-x-4 justify-center md:justify-start mb-4">
